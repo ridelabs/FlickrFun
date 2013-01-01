@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+<!--   <TextView android:id="@+id/product_label" -->
+<!--             android:layout_width="fill_parent" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:textSize="25dip" -->
+<!--             android:textStyle="bold" -->
+<!--             android:padding="10dip" -->
+<!--             android:textColor="#ffffff"/> -->
+  
+      <TextView android:id="@+id/image_detail"
+        android:textColor="#29040a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="180sp"
+        android:textStyle="bold"
+        android:textSize="60sp"
+    />    
+    
+<!--               android:text="testing..." -->
+
+    <ImageView android:id="@+id/selected_image" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:scaleType="fitCenter"
+    android:contentDescription="@string/activity_main_image_help"
+    android:adjustViewBounds="true">
+	</ImageView>
+  
+</LinearLayout>
